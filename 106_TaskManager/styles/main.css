@@ -1,0 +1,42 @@
+h1{
+    color: gray;
+}
+.header{
+   
+    width: 80%;
+    margin: 20px auto;
+   
+
+}
+.main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+}
+#list{
+    flex: 5;
+    background-color: azure;
+    min-height: calc(100vh - 89px);
+}
+#form{
+    flex: 2;
+    background-color: rgb(232, 235, 234);
+    min-height: calc(100vh - 89px);
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#form .control{
+    margin-bottom: 12px;
+}
+.iImportant{
+    font-size: 32px;
+    cursor: pointer;
+}
+.fas{
+    color:red
+}
+.far{
+    color: gray;
+}
